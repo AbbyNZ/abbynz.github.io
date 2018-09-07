@@ -18,6 +18,7 @@ html, body {
 	background:#CFD3F4;
 	min-height: 60vh;
 	padding-top: 40vh;
+	padding-bottom: 20vh;
 }
 
 nav ul {
@@ -61,7 +62,7 @@ nav ul li a:hover {
 	overflow: hidden;
 	border: 2px solid skyblue;
 	height: 230px;
-	width: 300px;
+	width: 250px;
 	margin: 40px 100px;
 }
 
@@ -72,7 +73,7 @@ nav ul li a:hover {
 }
 
 .project-title {
-	font: bold;
+	font-weight: bold;
 	padding: 15px;
 	border-top: 2px solid skyblue;
 }

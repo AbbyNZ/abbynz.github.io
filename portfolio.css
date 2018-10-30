@@ -15,10 +15,25 @@ html, body {
 
 .welcome {
 	top: 0;
-	background:#CFD3F4;
-	min-height: 60vh;
+	background-color:#CFD3F4;
+	background: url(apple-keyboard-buttons-computer.jpg);
+	background-size: cover;
+	min-height: 35vh;
 	padding-top: 40vh;
 	padding-bottom: 20vh;
+}
+
+.intro {
+	width: 800px;
+	height: 300px;
+	margin: auto;
+	display: block;
+	font-weight: 600;
+}
+
+.welcome p {
+	font-size: 20px;
+	text-align: justify;
 }
 
 nav ul {

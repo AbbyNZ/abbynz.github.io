@@ -12,7 +12,6 @@ html, body {
 	padding: 0px;
 }
 
-
 .welcome {
 	top: 0;
 	background:#CFD3F4;
@@ -47,6 +46,7 @@ nav ul li {
 	margin: 50px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	font-weight: 700;
 }
 
 nav ul li a {

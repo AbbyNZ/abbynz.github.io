@@ -15,20 +15,19 @@ html, body {
 
 .welcome {
 	top: 0;
-	background-color:#CFD3F4;
-	background: url(apple-keyboard-buttons-computer.jpg);
+	background:#CFD3F4;
+	background-image: url(apple-keyboard-buttons-computer.jpg);
 	background-size: cover;
 	min-height: 35vh;
-	padding-top: 40vh;
+	padding-top: 30vh;
 	padding-bottom: 20vh;
 }
 
 .intro {
 	width: 800px;
 	height: 300px;
-	margin: auto;
-	display: block;
-	font-weight: 600;
+        font-weight: bold;
+	margin: 10px auto;
 }
 
 .welcome p {
@@ -139,6 +138,12 @@ footer {
 	.project {
 		margin: 40px 0;
 	}
+	.intro {
+		margin: 0 auto;
+    	max-width: 300px;
+    	width: 100%;
+    	margin-bottom: 15px;
+	}	
 }
 @media only screen and (max-width: 367px) {
 	.contact-details {

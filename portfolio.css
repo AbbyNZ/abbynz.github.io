@@ -15,11 +15,11 @@ html, body {
 .welcome {
 	top: 0;
 	background:#CFD3F4;
-	background-image: url(apple-keyboard-buttons-computer.jpg);
+	/*background-image: url(apple-keyboard-buttons-computer.jpg);*/
 	background-size: cover;
-	min-height: 35vh;
-	padding-top: 30vh;
-	padding-bottom: 20vh;
+	min-height: 30vh;
+	padding-top: 25vh;
+	padding-bottom: 10vh;
 }
 
 .intro {
@@ -38,7 +38,7 @@ nav ul {
 	text-align: right;
 	position: fixed;
 	width: 100%;
-	background-color: #CFD3F4;
+	background-color: #22313F;
 }
 
 nav ul li {
@@ -46,11 +46,11 @@ nav ul li {
 	margin: 50px;
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-weight: 700;
+	font-weight: bolder;
 }
 
 nav ul li a {
-	color: #1B38A6;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ nav ul li a:hover {
 .project-header {
 	margin-top: 50px;
 	color: #1B38A6;
-	font-weight: normal;
+	font-weight: bolder;
 }
 
 .project {

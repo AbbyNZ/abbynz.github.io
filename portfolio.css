@@ -15,8 +15,9 @@ html, body {
 .welcome {
 	top: 0;
 	background:#CFD3F4;
-	/*background-image: url(apple-keyboard-buttons-computer.jpg);*/
-	background-size: cover;
+	background-image: url(south-island.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	min-height: 30vh;
 	padding-top: 25vh;
 	padding-bottom: 10vh;
